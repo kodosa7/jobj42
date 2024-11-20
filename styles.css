@@ -103,6 +103,14 @@ h3 {
   margin-top: 0.75rem;
 }
 
+ul {
+  margin: 0;
+}
+
+li {
+  margin: 0.3rem 0;
+}
+
 /* layout */
 .container {
   padding: 5rem 2rem;
