@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="157.46063mm"
+   height="48.329098mm"
+   viewBox="0 0 157.46063 48.329098"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-24.509097,-23.06913)">
+    <path
+       id="rect1"
+       style="fill:#ffcc00;stroke:#ffffff;stroke-width:1.05236e-08;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;paint-order:normal"
+       d="M 135.93175,23.203235 H 28.264425 c -2.08026,0 -3.755327,1.67455 -3.755327,3.754809 v 40.685372 c 0,2.08026 1.675067,3.75481 3.755327,3.75481 H 118.0145 Z" />
+    <path
+       id="path1"
+       style="fill:#000000;stroke:#ffffff;stroke-width:1.05236e-08;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;paint-order:normal"
+       d="m 135.93173,23.069128 -17.91725,48.194991 h 60.20046 c 2.08026,0 3.75481,-1.67455 3.75481,-3.75481 V 26.823937 c 0,-2.080259 -1.67455,-3.754809 -3.75481,-3.754809 z" />
+    <text
+       xml:space="preserve"
+       style="font-size:50.8px;line-height:1.25;font-family:'Merriweather Sans';-inkscape-font-specification:'Merriweather Sans, @wght=700';font-variation-settings:'wght' 700;letter-spacing:0px;fill:#1a1a1a;stroke-width:0.264583"
+       x="33.467407"
+       y="65.241379"
+       id="text1"><tspan
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:50.8px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold Semi-Condensed';letter-spacing:0px;fill:#1a1a1a;stroke-width:0.264583"
+         x="33.467407"
+         y="65.241379">JobJ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:50.8px;line-height:1.25;font-family:'Merriweather Sans';-inkscape-font-specification:'Merriweather Sans, @wght=700';font-variation-settings:'wght' 700;stroke-width:0.264583"
+       x="125.05949"
+       y="65.168488"
+       id="text2"><tspan
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:50.8px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold Semi-Condensed';fill:#f9f9f9;stroke-width:0.264583"
+         x="125.05949"
+         y="65.168488">42</tspan></text>
+  </g>
+</svg>
