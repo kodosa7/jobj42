@@ -410,6 +410,19 @@ li {
   }
 }
 
+/* where */
+.where__image-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* .where__image-holder img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} */
+
 /* button */
 .btn {
   flex-grow: 0;
