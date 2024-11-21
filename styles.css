@@ -435,6 +435,10 @@ li {
   text-align: center;
 }
 
+.where__image-single a:hover {
+  transform: scale(103%);
+}
+
 /* button */
 .btn {
   flex-grow: 0;
