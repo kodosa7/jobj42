@@ -408,6 +408,7 @@ li {
 }
 
 .where__image-single {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -419,6 +420,26 @@ li {
 
 .where__image-single a:hover {
   transform: scale(103%);
+}
+
+/* bubble text */
+
+.bubble-text {
+  display: none; /* Hidden by default */
+  position: absolute; /* Allows proper placement relative to parent */
+  top: 100%; /* Position below the image */
+  left: 5%;
+  width: 90%; /* Adjust width as needed */
+  background: #dbd9c5; /* Dark background for better readability */
+  color: #060302; /* White text */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.where__image-single:hover .bubble-text {
+  display: block; /* Show on hover */
 }
 
 /* button */
@@ -502,10 +523,7 @@ li {
 .lg-text-centered {
   text-align: center;
   font-family: "Aldrich", sans-serif;
-  /* font-size: 1.875rem; */
   font-size: 2rem;
-
-
 }
 
 .lg-text-centered a {

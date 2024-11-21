@@ -12,3 +12,4 @@ nav.addEventListener("click", (e) => {
         navBtn.classList.remove("nav-btn--open");
     }
 });
+
