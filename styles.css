@@ -64,7 +64,6 @@ strong {
 a {
   color: #fcc200;
   text-underline-offset: 0.2rem;
-  /* text-decoration: dotted; */
   text-decoration-style: dotted;
   transition: 250ms;
 }
@@ -499,19 +498,21 @@ li {
   color: #060302;
 }
 
-/* contact */
-.contact {
+/* lg-text-centered */
+.lg-text-centered {
   text-align: center;
   font-family: "Aldrich", sans-serif;
-  font-size: 1.875rem;
+  /* font-size: 1.875rem; */
+  font-size: 2rem;
+
 
 }
 
-.contact a {
+.lg-text-centered a {
   text-decoration: none;  
 }
 
-.contact a:hover {
+.lg-text-centered a:hover {
   opacity: 0.7;
 }
 
