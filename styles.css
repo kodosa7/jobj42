@@ -423,23 +423,25 @@ li {
 }
 
 /* bubble text */
-
 .bubble-text {
-  display: none; /* Hidden by default */
-  position: absolute; /* Allows proper placement relative to parent */
-  top: 100%; /* Position below the image */
+  display: none;
+  position: absolute;
+  top: 100%;
   left: 5%;
-  width: 90%; /* Adjust width as needed */
-  background: #dbd9c5; /* Dark background for better readability */
-  color: #060302; /* White text */
+  width: 90%;
+  background: #dbd9c5;
+  color: #060302;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
 
+.bubble-text a {
+  color: #bf4d47;
+}
 .where__image-single:hover .bubble-text {
-  display: block; /* Show on hover */
+  display: block;
 }
 
 /* button */
