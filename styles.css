@@ -49,7 +49,7 @@ body {
   /* background-color: #0f0; */
   color: #dddddd;
   margin: 0;
-  font-family: "Reem Kufi", sans-serif;
+  font-family: "Aldrich", sans-serif;
   font-size: 1rem;
 }
 
@@ -379,7 +379,7 @@ li {
   align-items: center;
   position: relative;
   margin-top: -2.5rem;
-  font-family: "Reem Kufi", sans-serif;
+  font-family: "Aldrich", sans-serif;
   color: #f0f0f0;
 }
 
@@ -717,7 +717,7 @@ li {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
-  font-size: 0.666rem;
+  font-size: 0.875rem;
   background-color: #060302;
   color: #fcc200;
 }
