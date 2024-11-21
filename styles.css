@@ -735,13 +735,15 @@ li {
 
 .footer__icons {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   -moz-column-gap: 1.25rem;
        column-gap: 1.25rem;
 }
 
 .footer__link {
-  padding: 0.375rem 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .footer__link:hover {
