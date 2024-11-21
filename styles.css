@@ -414,14 +414,16 @@ li {
 .where__image-holder {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid red;
 }
 
-/* .where__image-holder img {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-} */
+.where__image-holder img {
+  padding: 1rem;
+  width: 50%;
+  max-width: 500px;
+  object-fit: cover;
+}
 
 /* button */
 .btn {
