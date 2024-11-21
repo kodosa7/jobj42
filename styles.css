@@ -102,6 +102,15 @@ h3 {
   margin-top: 0.75rem;
 }
 
+h4 {
+  color: #f0f0f0;
+  opacity: 75%;
+  font-size: 0.75rem;
+  font-family: "Kode Mono", monospace;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 ul {
   margin: 0;
 }
@@ -112,7 +121,10 @@ li {
 
 /* layout */
 .container {
-  padding: 5rem 2rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /* header */
@@ -493,7 +505,7 @@ li {
 
 @media (min-width: 800px) {
   .footer {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 }
 .footer__text {
