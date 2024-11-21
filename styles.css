@@ -415,14 +415,24 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border: 2px solid red;
 }
 
 .where__image-holder img {
-  padding: 1rem;
-  width: 50%;
+  padding: 0.5rem;
+  width: 75%;
   max-width: 500px;
   object-fit: cover;
+  border-radius: 1rem;
+}
+
+.where__image-single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.where__image-single a {
+  text-align: center;
 }
 
 /* button */
