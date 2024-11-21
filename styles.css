@@ -68,7 +68,7 @@ a {
 }
 
 :focus {
-  outline: 3px solid #bf4d47;
+  outline: 3px solid white;
   outline-offset: 3px;
 }
 
@@ -169,7 +169,7 @@ li {
 
 /* navigation grill menu button */
 .nav-btn {
-  position: absolute;
+  position: fixed;
   right: 1.25rem;
   top: 1.25rem;
   padding: 0.5rem;
@@ -228,23 +228,28 @@ li {
 .nav-btn__hamburger,
 .nav-btn__hamburger::before,
 .nav-btn__hamburger::after {
-  background-color: #bf4d47;
+  background-color: #dddddd;
 }
 
 /* intro */
+
+.intro {
+  width: 75%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3.5rem;
+}
+
 /* more than 600px -> switch to desktop view */
 @media (min-width: 600px) {
   .intro {
-    /* display: grid; */
-    /* width: -moz-min-content; */
-    /* width: min-content; */
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     -moz-column-gap: 1rem;
          column-gap: 1rem;
-    margin-top: 1rem;
-    /* grid-template-areas: "img title" "img subtitle"; */
-    /* grid-template-columns: min-content max-content; */
+    margin-top: 3.5rem;
   }
 }
 .intro::before {
@@ -273,6 +278,7 @@ li {
     transform: translateX(-0.5rem) translateY(-0.5rem);
   }
 }
+
 .intro__project-detail {
   padding-top: 6rem;
 }
@@ -490,6 +496,7 @@ li {
   }
 }
 .footer__text {
+  font-family: "Kode Mono", monospace;
   font-weight: 700;
   text-decoration: none;
   padding: 0.375rem 1rem;
@@ -504,8 +511,8 @@ li {
 }
 
 .footer__link {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  text-decoration: none;
+  padding: 0;
 }
 
 .footer__link:hover {
