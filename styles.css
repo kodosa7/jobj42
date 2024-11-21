@@ -252,7 +252,8 @@ li {
     margin-top: 3.5rem;
   }
 }
-.intro::before {
+
+/* .intro::before {
   content: "";
   position: absolute;
   width: 400px;
@@ -277,7 +278,7 @@ li {
   100% {
     transform: translateX(-0.5rem) translateY(-0.5rem);
   }
-}
+} */
 
 .intro__project-detail {
   padding-top: 6rem;
