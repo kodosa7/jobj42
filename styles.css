@@ -256,6 +256,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   margin-top: 3.5rem;
+  filter: drop-shadow(0 0 0.75rem crimson);
 }
 
 /* more than 600px -> switch to desktop view */
