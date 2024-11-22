@@ -298,53 +298,6 @@ li {
   }
 } */
 
-.intro__project-detail {
-  padding-top: 6rem;
-}
-
-.intro__title {
-  font-weight: 400;
-  font-size: clamp(2rem, 0.625rem + 5vw, 5rem);
-  grid-area: title;
-  align-self: center;
-}
-
-.intro__type {
-  display: block;
-}
-
-.intro__first-name {
-  color: #060302;
-  font-weight: 400;
-  text-transform: uppercase;
-  animation: intro__first-name 1.5s ease-in;
-}
-
-@keyframes intro__first-name {
-  from {
-    margin: -0.5rem;
-  }
-  to {
-    margin: 0;
-  }
-}
-.intro__last-name {
-  letter-spacing: 0.4rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #060302;
-  animation: intro__last-name 1.5s ease-in;
-}
-
-@keyframes intro__last-name {
-  from {
-    opacity: 0.5;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 /* what */
 .what {
   margin: -5rem auto 0 auto;
@@ -443,83 +396,6 @@ li {
 }
 .where__image-single:hover .bubble-text {
   display: block;
-}
-
-/* button */
-.btn {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: 18rem;
-  position: relative; /* position relative to the slide effect */
-  padding: 1em 0.5em;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  font-size: clamp(1rem, 0.667rem + 1.33vw, 1.25rem); /* 400px - 700px */
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  cursor: pointer;
-  border-radius: 0.1rem;
-  transition: all 250ms ease-in-out;
-  overflow: hidden; /* hide slide element */
-  --effect-width: 20px;
-  --effect-width-skewed: 70px;
-}
-
-.btn:focus,
-.btn:hover {
-  color: #060302;
-  transform: scale(1.01);
-}
-
-/* button animation */
-.btn::before,
-.btn::after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  top: 0;
-}
-
-.btn::before {
-  width: var(--effect-width);
-  right: calc(100% + var(--effect-width-skewed) - var(--effect-width));
-  background-color: hsla(0, 0%, 100%, 0.3);
-  transform: skew(-45deg);
-  transition: all 300ms ease-in-out 150ms;
-} /* slide element before */
-.btn:focus::before,
-.btn:hover::before {
-  right: calc(-1 * var(--effect-width-skewed));
-}
-
-.btn::after {
-  right: 0;
-  width: 0;
-  background-color: #dbd9c5;
-  transition: all 300ms ease-in-out 0s;
-} /* slide element after */
-.btn:focus::after,
-.btn:hover::after {
-  left: 0;
-  right: auto;
-  width: 100%;
-}
-
-.btn__text {
-  display: block;
-  position: relative;
-  z-index: 1;
-}
-
-.btn--resume {
-  background-color: #545454;
-  color: #dbd9c5;
-}
-
-.btn--projects {
-  background-color: #fcc200;
-  color: #060302;
 }
 
 /* lg-text-centered */
