@@ -413,6 +413,16 @@ li {
   opacity: 0.7;
 }
 
+/* sm-text-centerd */
+.sm-text-centered {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.sm-text-centered a {
+  text-decoration: none;
+}
+
 /* footer */
 .footer {
   padding-top: 0.5rem;
