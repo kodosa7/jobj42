@@ -67,22 +67,27 @@
          x="125.05949"
          y="65.168488">42</tspan></text>
   </g>
-  <rect
+  <circle
      style="fill:#000000;stroke:#000000;stroke-width:2.06375"
-     id="rect850"
-     width="63.260941"
-     height="57.72718"
-     x="170.6662"
-     y="-8.5521755" />
+     id="path12963"
+     cx="209.33961"
+     cy="21.191786"
+     r="32.007771"
+     inkscape:export-filename="W:\home\ella\dev\jobj42\img\rect850.png"
+     inkscape:export-xdpi="123.89"
+     inkscape:export-ydpi="123.89" />
   <text
      xml:space="preserve"
      style="font-size:50.8px;line-height:1.25;font-family:'Amiri Quran';-inkscape-font-specification:'Amiri Quran';stroke-width:0.264583"
-     x="177.96327"
-     y="38.518055"
-     id="text4648"><tspan
+     x="185.00621"
+     y="39.398426"
+     id="text4648"
+     inkscape:export-filename="W:\home\ella\dev\jobj42\img\rect850.png"
+     inkscape:export-xdpi="123.89"
+     inkscape:export-ydpi="123.89"><tspan
        sodipodi:role="line"
        id="tspan4646"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:50.8px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold Semi-Condensed';fill:#ffffff;stroke-width:0.264583"
-       x="177.96327"
-       y="38.518055">42</tspan></text>
+       x="185.00621"
+       y="39.398426">42</tspan></text>
 </svg>
