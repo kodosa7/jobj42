@@ -349,8 +349,16 @@ li {
 /* where */
 .where__image-holder {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
+}
+
+@media (min-width: 900px) {
+  .where__image-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 
 .where__image-holder img {
@@ -360,6 +368,7 @@ li {
   object-fit: cover;
   border-radius: 1rem;
 }
+
 
 .where__image-single {
   position: relative;
@@ -383,12 +392,20 @@ li {
   top: 100%;
   left: 5%;
   width: 90%;
+  font-size: 1.1rem;
   background: #dbd9c5;
   color: #060302;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 10;
+}
+
+@media (min-width: 900px) {
+  .bubble-text {
+    left: 0;
+    width: 100%;
+  }
 }
 
 .bubble-text a {
