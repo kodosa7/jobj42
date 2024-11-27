@@ -1,13 +1,10 @@
 # JobJ42 Website
 
-## A demoparty website
+## Demoparty website
 
-This is the website of a JobJ42 demoparty held usually
-in February in Belgium.
+Static website for JobJ42 Demoparty replacing the old design with a modern style.
 
 ## Technologies used
 -   HTML
--   CSS (BEM methodology)
--   SCSS
+-   CSS (BEM)
 -   JavaScript
-
